@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+label{
+    font-size: 3vh;
+    font-weight: bold;
+}
+.goes{
+    text-align: center;
+}
+#minute{
+    width: 50px;
+}
+.goes h1 {
+    font-size: 10vh;
+    font-weight: bold;
+    display: none;
+}
+.goes #time{
+    font-size: 5vh;
+    font-weight: bold;
+    margin-top: 80px;
+}
